@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Webcrumbs Plugin</title>
     <style>
       @import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
-      
+
       @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
-      
+
       @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
-      
+
       /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
       *,
       :after,
@@ -26,15 +40,8 @@
       html {
         line-height: 1.5;
         -webkit-text-size-adjust: 100%;
-        font-family:
-          Poppins,
-          ui-sans-serif,
-          system-ui,
-          sans-serif,
-          Apple Color Emoji,
-          Segoe UI Emoji,
-          Segoe UI Symbol,
-          Noto Color Emoji;
+        font-family: Poppins, ui-sans-serif, system-ui, sans-serif,
+          Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
         font-feature-settings: normal;
         font-variation-settings: normal;
         -moz-tab-size: 4;
@@ -74,15 +81,8 @@
       kbd,
       pre,
       samp {
-        font-family:
-          ui-monospace,
-          SFMono-Regular,
-          Menlo,
-          Monaco,
-          Consolas,
-          Liberation Mono,
-          Courier New,
-          monospace;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          Liberation Mono, Courier New, monospace;
         font-feature-settings: normal;
         font-size: 1em;
         font-variation-settings: normal;
@@ -457,15 +457,8 @@
         text-align: center;
       }
       #webcrumbs .font-title {
-        font-family:
-          Poppins,
-          ui-sans-serif,
-          system-ui,
-          sans-serif,
-          Apple Color Emoji,
-          Segoe UI Emoji,
-          Segoe UI Symbol,
-          Noto Color Emoji;
+        font-family: Poppins, ui-sans-serif, system-ui, sans-serif,
+          Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
       }
       #webcrumbs .text-2xl {
         font-size: 24px;
@@ -530,7 +523,7 @@
         --tw-bg-opacity: 1;
         background-color: rgb(0 136 255 / var(--tw-bg-opacity));
       }
-      
+
       body {
         line-height: inherit;
         padding: 24px;
@@ -545,10 +538,150 @@
     </style>
   </head>
   <body>
-  <div id="webcrumbs">
-    <div class="w-[1200px] min-h-[800px] bg-white rounded-lg shadow-lg"> <header class="bg-primary-500 text-primary-50 p-8 rounded-t-lg"> <h1 class="text-4xl font-title">John Doe</h1> <p class="mt-2 text-lg">Full Stack Developer | Passionate about UI/UX Design</p> </header> <main class="p-8"> <section class="mb-12"> <h2 class="text-2xl font-title text-primary-950 mb-4">About Me</h2> <div class="flex items-start gap-8"> <img src="https://tools-api.webcrumbs.org/image-placeholder/200/200/avatars/1" alt="Developer" class="w-[200px] h-[200px] rounded-full object-contain"/> <p class="text-neutral-950 leading-relaxed"> Hello! I&#x27;m John Doe, a highly motivated full-stack developer with 5+ years of experience building scalable web applications. I specialize in modern JavaScript frameworks, clean UX/UI design, and team collaboration. I&#x27;m passionate about creating efficient, elegant solutions to complex problems. </p> </div> </section> <section class="mb-12"> <h2 class="text-2xl font-title text-primary-950 mb-4">Skills</h2> <ul class="grid grid-cols-3 gap-4 text-neutral-950"> <li>HTML</li> <li>CSS</li> <li>JavaScript</li> <li>React</li> <li>Node.js</li> <li>Express.js</li> <li>MongoDB</li> <li>TypeScript</li> <li>GraphQL</li> </ul> </section> <section class="mb-12"> <h2 class="text-2xl font-title text-primary-950 mb-4">Projects</h2> <div class="grid grid-cols-2 gap-8"> <div class="bg-neutral-100 rounded-md p-4"> <img src="https://tools-api.webcrumbs.org/image-placeholder/400/200/products/1" alt="Project 1" class="w-full h-[200px] rounded-md object-cover mb-4"/> <h3 class="text-lg text-neutral-950 font-semibold">Project Alpha</h3> <p class="text-neutral-950 text-sm"> A web-based task management tool. Designed for team collaboration with real-time updates. </p> <a href="#" class="inline-block mt-2 text-primary-500 underline text-sm" target="_blank" rel="noopener noreferrer"> View on GitHub </a> </div> <div class="bg-neutral-100 rounded-md p-4"> <img src="https://tools-api.webcrumbs.org/image-placeholder/400/200/products/2" alt="Project 2" class="w-full h-[200px] rounded-md object-cover mb-4"/> <h3 class="text-lg text-neutral-950 font-semibold">E-commerce Platform</h3> <p class="text-neutral-950 text-sm"> An online shop with custom dashboards and integrated payment gateways. </p> <a href="#" class="inline-block mt-2 text-primary-500 underline text-sm" target="_blank" rel="noopener noreferrer"> View on GitHub </a> </div> </div> </section> <section class="mb-12"> <h2 class="text-2xl font-title text-primary-950 mb-4">Contact Information</h2> <div class="flex flex-col gap-4 text-neutral-950"> <p>Email: <a href="mailto:john.doe@example.com" class="text-primary-500 underline">john.doe@example.com</a></p> <div class="flex gap-4"> <a href="#" class="text-primary-500 text-lg" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-linkedin"></i> </a> <a href="#" class="text-primary-500 text-lg" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-github"></i> </a> <a href="#" class="text-primary-500 text-lg" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-twitter"></i> </a> </div> <a href="#" class="inline-block bg-primary-500 hover:bg-primary-600 text-primary-50 text-sm px-6 py-2 rounded-md w-[150px] text-center" download=""> Download Resume </a> </div> </section> </main> <footer class="bg-neutral-100 text-neutral-950 text-center py-4 rounded-b-lg"> <p>© 2025 John Doe. All rights reserved.</p> </footer> </div>
-
-
-  </div>
+    <div id="webcrumbs">
+      <div class="w-[1200px] min-h-[800px] bg-white rounded-lg shadow-lg">
+        <header class="bg-primary-500 text-primary-50 p-8 rounded-t-lg">
+          <h1 class="text-4xl font-title">John Doe</h1>
+          <p class="mt-2 text-lg">
+            Full Stack Developer | Passionate about UI/UX Design
+          </p>
+        </header>
+        <main class="p-8">
+          <section class="mb-12">
+            <h2 class="text-2xl font-title text-primary-950 mb-4">About Me</h2>
+            <div class="flex items-start gap-8">
+              <img
+                src="https://tools-api.webcrumbs.org/image-placeholder/200/200/avatars/1"
+                alt="Developer"
+                class="w-[200px] h-[200px] rounded-full object-contain"
+              />
+              <p class="text-neutral-950 leading-relaxed">
+                Hello! I&#x27;m John Doe, a highly motivated full-stack
+                developer with 5+ years of experience building scalable web
+                applications. I specialize in modern JavaScript frameworks,
+                clean UX/UI design, and team collaboration. I&#x27;m passionate
+                about creating efficient, elegant solutions to complex problems.
+              </p>
+            </div>
+          </section>
+          <section class="mb-12">
+            <h2 class="text-2xl font-title text-primary-950 mb-4">Skills</h2>
+            <ul class="grid grid-cols-3 gap-4 text-neutral-950">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>TypeScript</li>
+              <li>GraphQL</li>
+            </ul>
+          </section>
+          <section class="mb-12">
+            <h2 class="text-2xl font-title text-primary-950 mb-4">Projects</h2>
+            <div class="grid grid-cols-2 gap-8">
+              <div class="bg-neutral-100 rounded-md p-4">
+                <img
+                  src="https://tools-api.webcrumbs.org/image-placeholder/400/200/products/1"
+                  alt="Project 1"
+                  class="w-full h-[200px] rounded-md object-cover mb-4"
+                />
+                <h3 class="text-lg text-neutral-950 font-semibold">
+                  Project Alpha
+                </h3>
+                <p class="text-neutral-950 text-sm">
+                  A web-based task management tool. Designed for team
+                  collaboration with real-time updates.
+                </p>
+                <a
+                  href="#"
+                  class="inline-block mt-2 text-primary-500 underline text-sm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on GitHub
+                </a>
+              </div>
+              <div class="bg-neutral-100 rounded-md p-4">
+                <img
+                  src="https://tools-api.webcrumbs.org/image-placeholder/400/200/products/2"
+                  alt="Project 2"
+                  class="w-full h-[200px] rounded-md object-cover mb-4"
+                />
+                <h3 class="text-lg text-neutral-950 font-semibold">
+                  E-commerce Platform
+                </h3>
+                <p class="text-neutral-950 text-sm">
+                  An online shop with custom dashboards and integrated payment
+                  gateways.
+                </p>
+                <a
+                  href="#"
+                  class="inline-block mt-2 text-primary-500 underline text-sm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </section>
+          <section class="mb-12">
+            <h2 class="text-2xl font-title text-primary-950 mb-4">
+              Contact Information
+            </h2>
+            <div class="flex flex-col gap-4 text-neutral-950">
+              <p>
+                Email:
+                <a
+                  href="mailto:john.doe@example.com"
+                  class="text-primary-500 underline"
+                  >john.doe@example.com</a
+                >
+              </p>
+              <div class="flex gap-4">
+                <a
+                  href="#"
+                  class="text-primary-500 text-lg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a
+                  href="#"
+                  class="text-primary-500 text-lg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  class="text-primary-500 text-lg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+              <a
+                href="#"
+                class="inline-block bg-primary-500 hover:bg-primary-600 text-primary-50 text-sm px-6 py-2 rounded-md w-[150px] text-center"
+                download=""
+              >
+                Download Resume
+              </a>
+            </div>
+          </section>
+        </main>
+        <footer
+          class="bg-neutral-100 text-neutral-950 text-center py-4 rounded-b-lg"
+        >
+          <p>© 2025 John Doe. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>
